@@ -1,50 +1,24 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## DevCurrency | Curso FullStack Pro - Sujeito Programador
 
-Currently, two official plugins are available:
+![screencapture-127-0-0-1-5173-2024-11-28-22_43_20](https://github.com/user-attachments/assets/c64d7a3e-b979-4a8c-a3b2-908237b894b0)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![devcurrency_cel](https://github.com/user-attachments/assets/1da1d886-9f1f-4031-92b5-dece5af87a8b)
 
-## Expanding the ESLint configuration
+Projeto de criptomoedas desenvolvido com HTML, CSS , Reactjs, Typescript e Vite onde temos a integração à API externa da CoinCap, garantindo acesso a dados atualizados e precisos em tempo real. O sistema conta com paginação eficiente, implementada por meio do React Router DOM, proporcionando uma navegação fluida e organizada para os usuários.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Skills Utilizadas:
+- Formatação compacta, onde pegamos um valor grande e deixamos ele compacto, mas bonito para se ler ;
+- Uso React Router DOM, onde deixamos a aplicação dinâmica;
+- Renderização condicional, para exibir algo baseado em uma certa condição;
+- Responsividade;
+- Utilização de API.
 
-- Configure the top-level `parserOptions` property like this:
+## Tecnologias utilizadas:
+![image](https://github.com/user-attachments/assets/41cba1c1-fdda-4b11-9094-aedd6308cb95)
+![image](https://github.com/user-attachments/assets/ea1d90d6-34b2-4d1e-bce6-1bd492cbe503)
+![biblioteca](https://github.com/user-attachments/assets/4c8f0c08-e039-4331-ac58-d4c28b7c1c4c)
+![typescript](https://github.com/user-attachments/assets/2eaab1f9-50dd-468a-89e0-e7ec591c9c7b)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Autor:
+Pablo Cavalcante - Aluno.
